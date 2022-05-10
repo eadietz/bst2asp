@@ -1,0 +1,7 @@
+cases,program,group,essay_b,essay_d,-essay_b,-essay_d
+library,ex3_1.lp,I,71,53,-,-
+library,ex3_2.lp,II,13,16,-,-
+library,ex3_3.lp,III,54,55,-,-
+-library,ex4_1.lp,I,-,-,92,69
+-library,ex4_2.lp,II,-,-,96,69
+-library,ex4_3.lp,III,-,-,33,44

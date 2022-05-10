@@ -1,0 +1,31 @@
+
+-----------------------------------------------------------------------------------------------------------------------
+INSTALLATION:
+Make sure that you have a working conda environment. See, e.g., https://docs.conda.io/en/latest/miniconda.html
+
+At the commandline run:
+conda create -n quasp -c conda-forge clingo loguru psutil pandas
+conda activate quasp
+
+-----------------------------------------------------------------------------------------------------------------------
+Run at the commandline from within the folder (requires Linux or MacOS):
+bash run_all.sh
+
+-----------------------------------------------------------------------------------------------------------------------
+Run in Python IDE or at the Commandline from within the folder (Windows):
+
+python plausibility.py ex1_1.lp
+python plausibility.py ex1_2.lp
+...
+python plausibility.py ex4_3.lp
+
+python gen_table.py
+
+
+-----------------------------------------------------------------------------------------------------------------------
+The program will generate all models, plausibilities, and tables that we reported in the paper.
+
+Files ex1_1.lp_models, .... will then contain details for each example.
+result_asp.csv or result_asp.tex will contain the summary over alle examples.
+
+Additionally, we placed these results in the folder outputs/ (in case the program does not run on some environment).

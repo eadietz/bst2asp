@@ -1,0 +1,10 @@
+% Plausibility of nprem(e) being true is:
+plaus(nprem(e)) = 0.5
+% SOLUTIONS WITHOUT QUERY
+num_denom=2
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) hyp(e) query(nprem(e))
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(o) hyp(o) query(nprem(e))
+% SOLUTIONS WITH QUERY
+% QUERY WAS: :- not nprem(e).
+num_nom=1
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) hyp(e) query(nprem(e))

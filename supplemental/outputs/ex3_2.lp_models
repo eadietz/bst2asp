@@ -1,0 +1,15 @@
+% Plausibility of prem(e) being true is:
+plaus(prem(e)) = 0.14285714285714285
+% SOLUTIONS WITHOUT QUERY
+num_denom=7
+concl sufficient(e) sufficient(t) necessary(o) query(prem(e))
+concl sufficient(e) sufficient(t) necessary(o) hyp(t) query(prem(e))
+concl sufficient(e) sufficient(t) prem(t) necessary(o) hyp(t) query(prem(e))
+concl sufficient(e) sufficient(t) necessary(o) nprem(t) hyp(t) query(prem(e))
+concl sufficient(e) sufficient(t) necessary(o) hyp(e) query(prem(e))
+concl sufficient(e) sufficient(t) prem(e) necessary(o) hyp(e) query(prem(e))
+concl sufficient(e) sufficient(t) necessary(o) nprem(e) hyp(e) query(prem(e))
+% SOLUTIONS WITH QUERY
+% QUERY WAS: :- not prem(e).
+num_nom=1
+concl sufficient(e) sufficient(t) prem(e) necessary(o) hyp(e) query(prem(e))

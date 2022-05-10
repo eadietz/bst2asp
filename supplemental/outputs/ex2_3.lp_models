@@ -1,0 +1,20 @@
+% Plausibility of nconcl being true is:
+plaus(nconcl) = 0.625
+% SOLUTIONS WITHOUT QUERY
+num_denom=8
+sufficient(e) sufficient(t) necessary(o) nprem(e) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) query(nconcl)
+sufficient(e) sufficient(t) necessary(o) nprem(e) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) hyp(o) query(nconcl)
+sufficient(e) sufficient(t) prem(o) necessary(o) nprem(e) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) prem(o) necessary(o) necessary(e) nprem(e) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) nprem(e) nprem(o) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) nprem(o) hyp(o) query(nconcl)
+% SOLUTIONS WITH QUERY
+% QUERY WAS: :- not nconcl.
+num_nom=5
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) prem(o) necessary(o) necessary(e) nprem(e) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) nprem(e) nprem(o) hyp(o) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(e) nprem(o) hyp(o) query(nconcl)

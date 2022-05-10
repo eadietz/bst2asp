@@ -1,0 +1,17 @@
+% Plausibility of concl being true is:
+plaus(concl) = 0.42857142857142855
+% SOLUTIONS WITHOUT QUERY
+num_denom=7
+sufficient(e) sufficient(t) necessary(o) necessary(e) query(concl)
+concl sufficient(e) sufficient(t) prem(e) necessary(o) necessary(e) query(concl)
+sufficient(e) sufficient(t) necessary(o) necessary(e) hyp(o) query(concl)
+concl sufficient(e) sufficient(t) prem(e) necessary(o) necessary(e) hyp(o) query(concl)
+sufficient(e) sufficient(t) prem(o) necessary(o) necessary(e) hyp(o) query(concl)
+concl sufficient(e) sufficient(t) prem(e) prem(o) necessary(o) necessary(e) hyp(o) query(concl)
+nconcl sufficient(e) sufficient(t) necessary(o) necessary(e) nprem(o) hyp(o) query(concl)
+% SOLUTIONS WITH QUERY
+% QUERY WAS: :- not concl.
+num_nom=3
+concl sufficient(e) sufficient(t) prem(e) necessary(o) necessary(e) query(concl)
+concl sufficient(e) sufficient(t) prem(e) necessary(o) necessary(e) hyp(o) query(concl)
+concl sufficient(e) sufficient(t) prem(e) prem(o) necessary(o) necessary(e) hyp(o) query(concl)

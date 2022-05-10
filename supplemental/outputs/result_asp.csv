@@ -1,0 +1,13 @@
+,cases,program,group,smodels_assumpt,smodels_total,library_asp,library_b,library_d,-library_asp,-library_b,-library_d,essay_asp,essay_b,essay_d,-essay_asp,-essay_b,-essay_d
+6,essay,ex1_1.lp,I,2,2,100.0,96,88,-,-,-,-,-,-,-,-,-
+7,essay,ex1_2.lp,II,4,4,100.0,96,93,-,-,-,-,-,-,-,-,-
+8,essay,ex1_3.lp,III,3,7,42.9,38,60,-,-,-,-,-,-,-,-,-
+9,-essay,ex2_1.lp,I,1,2,-,-,-,50.0,46,49,-,-,-,-,-,-
+10,-essay,ex2_2.lp,II,1,4,-,-,-,25.0,4,22,-,-,-,-,-,-
+11,-essay,ex2_3.lp,III,5,8,-,-,-,62.5,63,49,-,-,-,-,-,-
+0,library,ex3_1.lp,I,2,5,-,-,-,-,-,-,40.0,71,53,-,-,-
+1,library,ex3_2.lp,II,1,7,-,-,-,-,-,-,14.3,13,16,-,-,-
+2,library,ex3_3.lp,III,2,4,-,-,-,-,-,-,50.0,54,55,-,-,-
+3,-library,ex4_1.lp,I,1,1,-,-,-,-,-,-,-,-,-,100.0,92,69
+4,-library,ex4_2.lp,II,1,1,-,-,-,-,-,-,-,-,-,100.0,96,69
+5,-library,ex4_3.lp,III,1,2,-,-,-,-,-,-,-,-,-,50.0,33,44

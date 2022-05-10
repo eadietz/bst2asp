@@ -1,0 +1,12 @@
+% Plausibility of nconcl being true is:
+plaus(nconcl) = 0.25
+% SOLUTIONS WITHOUT QUERY
+num_denom=4
+sufficient(e) sufficient(t) necessary(o) nprem(e) query(nconcl)
+sufficient(e) sufficient(t) necessary(o) nprem(e) hyp(t) query(nconcl)
+concl sufficient(e) sufficient(t) prem(t) necessary(o) nprem(e) hyp(t) query(nconcl)
+nconcl sufficient(e) sufficient(t) necessary(o) nprem(e) nprem(t) hyp(t) query(nconcl)
+% SOLUTIONS WITH QUERY
+% QUERY WAS: :- not nconcl.
+num_nom=1
+nconcl sufficient(e) sufficient(t) necessary(o) nprem(e) nprem(t) hyp(t) query(nconcl)
